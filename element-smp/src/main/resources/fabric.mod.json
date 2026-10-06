@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "element_smp",
+  "version": "${version}",
+  "name": "Element Armor / Element SMP",
+  "description": "Each player has an element. Worn armor automatically shows that element's Armor Trim without touching enchantments, name, durability or any other data.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["dev.elementsmp.ElementSmpMod"] },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
